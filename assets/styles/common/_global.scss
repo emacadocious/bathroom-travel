@@ -9,3 +9,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.box {
+   @include border-radius(100px);
+   opacity: 0.2;
+   height: 30vh;
+
+}
+
+.welcome-text {
+  font-size: 3em;
+  color: #fff;
+  @include centerer()
+}
