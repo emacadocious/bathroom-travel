@@ -33,3 +33,6 @@ require_once('wp_bootstrap_navwalker.php');
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'bathroom_travel' ),
 ) );
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 150, 150 );
