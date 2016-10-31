@@ -1,0 +1,20 @@
+.home-article {
+  margin-top: 15px;
+  border-radius: 10px;
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.7);
+
+  h2 {
+    a {
+      text-decoration: none;
+      color: #000;
+      font-size: 2em;
+      text-transform: lowercase;
+    }
+  }
+
+  p.byline {
+    text-decoration: none;
+    color: #000;
+  }
+}

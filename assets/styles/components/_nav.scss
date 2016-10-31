@@ -67,11 +67,12 @@ $dropDown       : false;
         color: $colHighlight;
         background-color: $bgHighlight; }}}
 }
-header {
+
+.banner {
   background-color: #000;
 }
 
 .logo {
-  background: url(#{$images}/logo.png) no-repeat;
+  background: url(#{$images}/logo2.png) no-repeat;
   height: 95px;
 }
