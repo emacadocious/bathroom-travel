@@ -2,7 +2,8 @@
   margin-top: 15px;
   border-radius: 10px;
   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-  background: rgba(204, 204, 204, 0.7);
+  background: rgba(204, 204, 204, 0.5);
+  border: 0.25px solid black;
 
   h2 {
     a {

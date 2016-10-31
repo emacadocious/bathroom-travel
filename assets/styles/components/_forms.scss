@@ -1,6 +1,8 @@
 // Search form
 .search-form {
   @extend .form-inline;
+  float: right;
+  margin-top: 15px;
 }
 .search-form label {
   font-weight: normal;
