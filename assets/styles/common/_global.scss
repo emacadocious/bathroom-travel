@@ -17,13 +17,8 @@ body {
    height: 30vh;
 }
 
-.intro {
-  position: relative;
-  height: 80%;
-}
-
 .splash {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh;  /* Fallback for browsers do NOT support vh unit */
 
   display: flex;
   align-items: center;
