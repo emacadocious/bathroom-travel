@@ -72,4 +72,10 @@ $dropDown       : false;
 
 header.banner {
   background-color: #fff;
+  height: 20%;
+  .logo {
+    img {
+      margin-top: 10px;
+    }
+  }
 }
