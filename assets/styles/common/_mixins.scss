@@ -4,6 +4,10 @@
 border-radius: $radius;
 }
 
+@mixin text-center {
+  text-align: center;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
