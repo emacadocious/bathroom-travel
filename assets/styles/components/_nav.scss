@@ -1,8 +1,9 @@
 
-$bgDefault      : #000000;
-$bgHighlight    : #000000;
-$colDefault     : #ffffff;
-$colHighlight   : #ffffff;
+$bgDefault      : #01B2D9;
+$bgHighlight    : #028AC2;
+$colDefault     : #fff;
+$colHighlight   : #ECDC5B;
+$fontSize       : 1.5em;
 $dropDown       : false;
 .navbar-default {
   background-color: $bgDefault;
@@ -17,6 +18,7 @@ $dropDown       : false;
     > li {
       > a {
         color: $colDefault;
+        font-size: $fontSize;
         &:hover,  &:focus {
           color: $colHighlight; }}
       @if $dropDown {
@@ -68,11 +70,6 @@ $dropDown       : false;
         background-color: $bgHighlight; }}}
 }
 
-.banner {
-  background-color: #000;
-}
-
-.logo {
-  background: url(#{$images}/logo2.png) no-repeat;
-  height: 95px;
+header.banner {
+  background-color: #fff;
 }

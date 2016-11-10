@@ -3,7 +3,9 @@
     <div class="row">
       <div class="col-md-8">
         <a class="brand" href="<?= esc_url(home_url('/')); ?>">
-          <div class="logo"></div>
+          <div class="logo">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/logo2.png" class="img-responsive" />
+          </div>
         </a>
       </div>
       <div class="col-md-4">
@@ -20,9 +22,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                    <?php bloginfo('name'); ?>
-                </a>
         </div>
 
             <?php
