@@ -1,15 +1,12 @@
 <header class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-sm-12">
         <a class="brand" href="<?= esc_url(home_url('/')); ?>">
           <div class="logo">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/logo2.png" class="img-responsive" />
           </div>
         </a>
-      </div>
-      <div class="col-md-4">
-        <?php get_template_part('templates/social'); ?>
       </div>
     </div>
     <nav class="navbar navbar-default" role="navigation">
