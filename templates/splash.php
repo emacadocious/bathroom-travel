@@ -4,7 +4,7 @@
       <div class="splash">
         <div class="animated fadeInUpBig">
           <p >We <span>love</span> to travel.</p>
-          <p>...and do bathrooms</p>
+          <p>...and we're very thankful for our life</p>
 
         </div>
       </div>
