@@ -16,11 +16,13 @@ body {
    opacity: 0.2;
    height: 30vh;
 }
+.intro {
+  text-align: center;
+}
 
 .splash {
   min-height: 60vh;  /* Fallback for browsers do NOT support vh unit */
-  display: flex;
-  align-items: center;
+
   p {
     font-size: 2em;
     color: #fff;
@@ -32,7 +34,6 @@ body {
 }
 .home-arrow {
   min-height: 20vh;
-  margin-left: 100px;
   span.glyphicon-circle-arrow-down {
     position: relative;
     font-size: 4em;
