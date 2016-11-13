@@ -1,4 +1,4 @@
-<div class="row home-article">
+<div class="row home-article" id="home-article">
  <div class="col-sm-12">
    <article <?php post_class(); ?>>
     <header>

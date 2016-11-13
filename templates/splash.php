@@ -7,7 +7,7 @@
 </div>
 <div class="home-arrow">
   <div class="col-sm-4 col-sm-offset-4 animated fadeInUpBig">
-    <a href="#">
+    <a href="#home-article">
       <p>
         (see what we're up to)
       </p>
