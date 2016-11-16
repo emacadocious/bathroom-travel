@@ -78,6 +78,7 @@ var revManifest = path.dist + 'assets.json';
 //   .pipe(gulp.dest(path.dist + 'styles'))
 // ```
 var cssTasks = function(filename) {
+// console.log(filename);
   return lazypipe()
     .pipe(function() {
       return gulpif(!enabled.failStyleTask, plumber());
@@ -167,6 +168,16 @@ var writeToManifest = function(directory) {
 // By default this task will only log a warning if a precompiler error is
 // raised. If the `--production` flag is set: this task will fail outright.
 gulp.task('styles', ['wiredep'], function() {
+  gulp.src('assets/styles/single.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('stylesheets/'));
+
+  gulp.src('assets/styles/about.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('stylesheets/'));
+
+
+
   var merged = merge();
   manifest.forEachDependency('css', function(dep) {
     var cssTasksInstance = cssTasks(dep.name);
@@ -182,6 +193,14 @@ gulp.task('styles', ['wiredep'], function() {
   return merged
     .pipe(writeToManifest('styles'));
 });
+
+// gulp.task('styles', function() {
+// console.log(this.tasks.styles);
+//     gulp.src('assets/styles/single.scss')
+//         .pipe(sass().on('error', sass.logError))
+//         .pipe(gulp.dest('stylesheets/'));
+// });
+
 
 // ### Scripts
 // `gulp scripts` - Runs JSHint then compiles, combines, and optimizes Bower JS

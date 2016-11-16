@@ -1,0 +1,64 @@
+@import "common/variables";
+@import "common/mixins";
+
+body {
+  background-color: #FFFFEC;
+}
+
+.container {
+  width:100%;
+}
+
+.about-us {
+  min-height: 75vh;
+  height: auto;
+  padding: 10px;
+  h2 {
+    float: left;
+  }
+  h1 {
+    font-family: $shadows-into-light-two;
+    font-size: 4em;
+    @include text-center;
+    margin-bottom: 25px;
+  }
+  .eric {
+    @include border-radius(10px);
+    min-height: 50vh;
+    img {
+      float: left;
+      height: 100%;
+    }
+  }
+  .bio {
+    background-color: hsla(58, 42%, 65%, .5);
+    @include text-center;
+    margin: 15px 0;
+    p {
+      font-family: $amatic-sc;
+      font-size: 2em;
+      font-weight: bolder;
+      span.location {
+        color: #A2BECC;
+      }
+    }
+    .middle {
+      font-family: $covered-by-your-grace;
+      font-size: 3em;
+      color: #ff4e4e;
+    }
+  }
+  .jackie {
+    text-align: right;
+    .image {
+      background-color: #000;
+      height: 50vh;
+    }
+  }
+}
+
+
+.story {
+  border: 12px dashed #99987F;
+  padding: 10px;
+}

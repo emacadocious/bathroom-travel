@@ -1,0 +1,49 @@
+body {
+  background-color: #FFFFEC; }
+
+.container {
+  width: 100%; }
+
+.about-us {
+  min-height: 75vh;
+  height: auto;
+  padding: 10px; }
+  .about-us h2 {
+    float: left; }
+  .about-us h1 {
+    font-family: "Shadows Into Light Two", cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 25px; }
+  .about-us .eric {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 50vh; }
+    .about-us .eric img {
+      float: left;
+      height: 100%; }
+  .about-us .bio {
+    background-color: rgba(203, 201, 128, 0.5);
+    text-align: center;
+    margin: 15px 0; }
+    .about-us .bio p {
+      font-family: "Amatic SC", cursive;
+      font-size: 2em;
+      font-weight: bolder; }
+      .about-us .bio p span.location {
+        color: #A2BECC; }
+    .about-us .bio .middle {
+      font-family: "Covered By Your Grace", cursive;
+      font-size: 3em;
+      color: #ff4e4e; }
+  .about-us .jackie {
+    text-align: right; }
+    .about-us .jackie .image {
+      background-color: #000;
+      height: 50vh; }
+
+.story {
+  border: 12px dashed #99987F;
+  padding: 10px; }
