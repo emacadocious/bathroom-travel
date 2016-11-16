@@ -33,3 +33,13 @@
     transform: translate(0, -50%);
   }
 }
+
+@mixin bolder {
+  font-weight: bolder;
+}
+
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
