@@ -50,6 +50,7 @@
             <h2>cocktails</h2>
           </div>
         </div>
+        <div class="clearfix hidden-sm"></div>
         <div class="description">
           <h2>jackie (jack)</h2>
           <h4>I'm a traveler who teaches first grade.</h4>

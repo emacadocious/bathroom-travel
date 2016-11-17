@@ -50,6 +50,16 @@ body {
       }
     }
   }
+  .jackie {
+    @include medium {
+      .description {
+        float: left;
+      }
+      .hovereffect {
+        float: right;
+      }
+    }
+  }
   img {
     float: left;
     width: 100%;
@@ -105,6 +115,7 @@ body {
   position: relative;
   text-align: center;
   cursor: default;
+  padding: 10px;
 }
 
 .hovereffect .overlay {
