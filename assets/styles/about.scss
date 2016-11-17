@@ -60,11 +60,7 @@ body {
       }
     }
   }
-  img {
-    float: left;
-    width: 100%;
-    height: 100%;
-  }
+
   .bio {
     background-color: hsla(58, 42%, 65%, .5);
     @include text-center;
