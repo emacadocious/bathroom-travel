@@ -19,6 +19,12 @@
   background-color: $color;
 }
 
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
 @mixin centerer($horizontal: true, $vertical: true) {
   position: absolute;
   @if ($horizontal and $vertical) {
@@ -38,8 +44,23 @@
   font-weight: bolder;
 }
 
+@mixin notepad($color) {
+  background-color: $color;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  font-family: $miniver;
+}
+
 @mixin mobile {
   @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media only screen and (max-width: 992px) and (min-width: 769px){
     @content;
   }
 }
