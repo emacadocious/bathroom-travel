@@ -42,7 +42,7 @@
           <p class="middle">together, we've been to many places around the world.</p>
           <p>we both have separate hobbies, but we're very thankful for everything.</p>
           <p>sometimes, we like to talk about things other than travel. (like beer)</p>
-          <h3>we like to write about 3 things we are thankful for, at the end of each post.</h3>
+          <h3>we like to write about things we are thankful for at the end of each post.</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-3 jackie">
