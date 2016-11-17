@@ -15,7 +15,7 @@
       <h1>who are we?</h1>
     </div>
     <div class="row story">
-      <div class="col-lg-3 col-md-4 eric">
+      <div class="col-lg-3 col-md-3 eric">
         <div class="row">
           <div class="hovereffect col-xs-12 col-sm-6 col-md-12">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/eric-scooter.png" class="img-responsive" />
@@ -30,19 +30,22 @@
           <div class="description col-xs-12 col-sm-6 col-md-12">
             <h2>eric (emac)</h2>
             <h4>I'm a web developer who loves to drink beer.</h4>
+            <h4>favorite place: <span class="location">madrid</span></h4>
+            <h4>fun fact: <span>i love reality television</span></h4>
           </div>
         </div>
       </div>
       <div class="clearfix visible-sm"></div>
-      <div class="col-lg-6 col-md-4">
+      <div class="col-lg-6 col-md-6">
         <div class="bio">
           <p>we moved to <span class="location">seoul, south korea</span> in july of 2016. we haven't looked back since</p>
           <p class="middle">together, we've been to many places around the world.</p>
           <p>we both have separate hobbies, but we're very thankful for everything.</p>
           <p>sometimes, we like to talk about things other than travel. (like beer)</p>
+          <h3>we like to write about 3 things we are thankful for, at the end of each post.</h3>
         </div>
       </div>
-      <div class="col-lg-3 col-md-4 jackie">
+      <div class="col-lg-3 col-md-3 jackie">
         <div class="row">
           <div class="hovereffect col-xs-12 col-sm-6 col-md-12">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/jackie-monkey.png" class="img-responsive" />
@@ -57,12 +60,14 @@
           <div class="description col-xs-12 col-sm-6 col-md-12">
             <h2>jackie (jack)</h2>
             <h4>I'm a traveler who teaches first grade.</h4>
+            <h4>favorite place: <span>phi phi don</span></h4>
+            <h4>fun fact: <span>i want to be on survivor</span></h4>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  <div class="row">
-    <h1>we like to write about 3 things we are thankful for, at the end of each post.</h1>
+    <div class="row">
+
+    </div>
   </div>
 </div>
