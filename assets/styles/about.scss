@@ -32,6 +32,16 @@ body {
       @include notepad(#fff200);
       padding: 10px;
     }
+    .hovereffect {
+      @include medium {
+        width: 60%;
+      }
+    }
+    .description {
+      @include medium {
+        width: 40%;
+      }
+    }
   }
   .eric {
     @include medium {
@@ -65,7 +75,7 @@ body {
   }
   .jackie {
     text-align: right;
-    @include mobile {
+    @include small {
       img {
         float: left;
       }

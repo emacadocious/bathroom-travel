@@ -16,19 +16,21 @@
     </div>
     <div class="row story">
       <div class="col-lg-3 col-md-4 eric">
-        <div class="hovereffect">
-          <img src="<?php bloginfo('template_url'); ?>/assets/images/eric-scooter.png" class="img-responsive" />
-          <div class="overlay">
-             <h2><span class="white">likes</span></h2>
-             <h2>being an ass</h2>
-             <h2>craft beer</h2>
-             <h2>headphones</h2>
+        <div class="row">
+          <div class="hovereffect col-xs-12 col-sm-6 col-md-12">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/eric-scooter.png" class="img-responsive" />
+            <div class="overlay">
+               <h2><span class="white">likes</span></h2>
+               <h2>being an ass</h2>
+               <h2>craft beer</h2>
+               <h2>headphones</h2>
+            </div>
           </div>
-        </div>
-        <div class="clearfix visible-md-up"></div>
-        <div class="description">
-          <h2>eric (emac)</h2>
-          <h4>I'm a web developer who loves to drink beer.</h4>
+          <div class="clearfix hidden-sm"></div>
+          <div class="description col-xs-12 col-sm-6 col-md-12">
+            <h2>eric (emac)</h2>
+            <h4>I'm a web developer who loves to drink beer.</h4>
+          </div>
         </div>
       </div>
       <div class="clearfix visible-sm"></div>

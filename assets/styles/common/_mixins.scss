@@ -53,8 +53,8 @@
   font-family: $miniver;
 }
 
-@mixin mobile {
-  @media (max-width: 768px) {
+@mixin small {
+  @media only screen and (max-width: 767px) and (min-width: 576px) {
     @content;
   }
 }
