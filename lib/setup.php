@@ -102,7 +102,7 @@ function assets() {
   }
 
   if(is_single()) {
-    wp_enqueue_style('sage/css/single', bloginfo('template_url') . '/stylesheets/single.css', false, null);
+    wp_enqueue_style('sage/css/single', get_template_directory_uri() . '/stylesheets/single.css', false, null);
   }
   if (is_single() && comments_open() && get_option('thread_comments')) {
     wp_enqueue_script('comment-reply');
