@@ -19,6 +19,7 @@ $dropDown       : false;
       > a {
         color: $colDefault;
         font-size: $fontSize;
+        top: 10px;
         &:hover,  &:focus {
           color: $colHighlight; }}
       @if $dropDown {
@@ -79,4 +80,11 @@ header.banner {
       margin-top: 10px;
     }
   }
+}
+
+.navbar.scrolled {
+    transition: background-color 0.5s ease;
+    background-color: rgb(68, 68, 68); //IE
+    background-color: #000;
+    opacity: 1;
 }
