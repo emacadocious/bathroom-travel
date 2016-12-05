@@ -1,16 +1,6 @@
 <header class="banner">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>">
-          <div class="logo">
-            <img src="<?php bloginfo('template_url'); ?>/assets/images/logo2.png" class="img-responsive" />
-          </div>
-        </a>
-      </div>
-    </div>
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -19,8 +9,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="brand" href="<?= esc_url(home_url('/')); ?>">
+            <div class="logo">
+              <img src="<?php bloginfo('template_url'); ?>/assets/images/logo2.png" class="img-responsive" />
+            </div>
+          </a>
         </div>
-
             <?php
                 wp_nav_menu( array(
                     'menu'              => 'primary',
