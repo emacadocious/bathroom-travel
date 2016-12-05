@@ -4,29 +4,37 @@ body {
   background: -webkit-linear-gradient(to bottom, #fff , #A2BECC); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #fff , #A2BECC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.content {
-  margin-top: 15px;
-  background: hsla(58, 11%, 55%, .2);
-}
 
+article {
+  width: 75%;
+  margin: 0 auto;
+}
 .content-header {
   width: 100%;
   min-height: 15vh;
   height: auto;
-  background-color: #60A0FF;
   text-align: center;
   margin-bottom: 25px;
-  background: hsla(216, 100%, 69%, .2)
-}
+  h1.entry-title {
+    padding-top: 20px;
+    font-size: 5em;
+  }
+  p {
+    padding-bottom: 20px;
+  }
 
-.content-header h1 {
-  padding-top: 20px;
-}
+  .article-meta {
+    padding: 10px;
+    time {
+      font-style: italic;
 
-.content-header p {
-  padding-bottom: 20px;
-}
+    }
+    .byline {
 
+
+    }
+  }
+}
 .instagram-pics {
   list-style: none;
   padding: 0;
