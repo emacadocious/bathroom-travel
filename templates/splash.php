@@ -3,9 +3,8 @@
     <div class="intro">
       <div class="splash">
         <div class="animated fadeInUpBig">
-          <p >We <span>love</span> to travel.</p>
-          <p>...and we're very thankful for our life</p>
-
+          <h1>We <span>love</span> to travel.</h1>
+          <h2>...and we're very thankful for our life</h2>
         </div>
       </div>
       <div class="home-arrow">
