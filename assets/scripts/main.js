@@ -9,7 +9,6 @@
  * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  * ======================================================================== */
-
 (function($) {
 
   // Use this variable to set up the common and page specific functions. If you
@@ -52,6 +51,10 @@
               return false;
             }
           }
+        });
+        console.log(masonry());
+        jQuery('#home-article').masonry({
+          itemSelector: '.item'
         });
       },
       finalize: function() {

@@ -46,6 +46,7 @@
     "gulp-sass": "^2.0.1",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.11",
     "imagemin-pngcrush": "^4.1.0",
     "jshint-stylish": "^2.0.1",
     "lazypipe": "^1.0.1",
@@ -57,6 +58,7 @@
   },
   "dependencies": {
     "animate.css": "^3.5.2",
+    "masonry-layout": "^4.1.1",
     "smoothscroll": "^0.2.2"
   }
 }

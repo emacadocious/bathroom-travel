@@ -14,25 +14,3 @@ body {
   linear-gradient(#eee .1em, transparent .1em);
   background-size: 100% 1.2em;
 }
-
-.instagram-pics {
-  a {
-    color: $link-color;
-  }
-
-  list-style: none;
-  padding: 0;
-
-  li {
-    margin-bottom: 10px;
-    border: 1px solid black;
-
-    :hover {
-      opacity: .6;
-    }
-
-    img {
-      width: 100%;
-    }
-  }
-}
