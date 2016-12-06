@@ -9,6 +9,7 @@
  * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  * ======================================================================== */
+
 (function($) {
 
   // Use this variable to set up the common and page specific functions. If you
@@ -18,7 +19,7 @@
     'common': {
       init: function() {
         function checkScroll(){
-            var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+            var startY = $('.navbar').height(); //The point where the navbar changes in px
 
             if($(window).scrollTop() > startY){
                 $('.navbar').addClass("scrolled");
@@ -46,19 +47,25 @@
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
               $('html, body').animate({
-                scrollTop: target.offset().top
+                scrollTop: target.offset().top + 20
               }, 1000);
               return false;
             }
           }
         });
-        console.log(masonry());
-        jQuery('#home-article').masonry({
-          itemSelector: '.item'
-        });
       },
       finalize: function() {
-        // JavaScript to be fired on the home page, after the init JS
+        jQuery(function() {
+          var $container = $('#home-article');
+            $container.imagesLoaded().done( function () {
+              $container.masonry({
+                columnWidth: '.item',
+                itemSelector: '.item',
+
+              });
+            });
+        });
+
       }
     },
     // About us page, note the change from about-us to about_us.
