@@ -8,6 +8,7 @@ $dropDown       : false;
 .navbar-default {
   background-color: $bgDefault;
   border-color: $bgHighlight;
+  @include admin-sticky-fix;
   .navbar-brand {
     color: $colDefault;
     &:hover, &:focus {

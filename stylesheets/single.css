@@ -10,7 +10,8 @@ article {
   width: 75%;
   margin: 0 auto; }
   article p {
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    margin: 25px 0; }
 
 .content-header {
   width: 100%;
