@@ -25,9 +25,11 @@ if ( is_front_page() && is_home() ) {
 
 <div class="wrapper" id="wrapper-home">
 
+	<?php get_template_part( 'global-templates/splash' ); ?>
+
 	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
+		<div class="row" id="homepage-primary">
 
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
@@ -35,7 +37,7 @@ if ( is_front_page() && is_home() ) {
 			<?php if ( 'masonry' === $posts_style ) : ?>
 
 			<div class="card-columns"><?php endif; ?>
-			
+
 				<main class="site-main" id="main">
 
 					<?php if ( have_posts() ) : ?>

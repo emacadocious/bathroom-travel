@@ -52,7 +52,6 @@ $qry = new WP_Query( $args );
 					<div class="page">
 						<?php get_template_part( 'loop-templates/content', 'verticalpage' ); ?>
 					</div>
-
 					<?php wp_reset_postdata(); // reset custom query. ?>
 					<?php
 				endwhile;

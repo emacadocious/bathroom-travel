@@ -34,6 +34,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php _e( 'Skip to content',
 		'understrap' ); ?></a>
 
+		<header class="masthead">
+		  <div class="container banner">
+			  <div class="row">
+			    <div class="col-sm-12">
+			      <h3>emac & jack</h3>
+			    </div>
+			  </div>
+				<div class="row">
+			    <div class="col-sm-12">
+			      <h4><span>we love to travel</span></h4>
+			    </div>
+			  </div>
+		  </div>
+		</header>
+
 		<nav class="navbar navbar-dark bg-inverse site-navigation" itemscope="itemscope"
 		     itemtype="http://schema.org/SiteNavigationElement">
 
