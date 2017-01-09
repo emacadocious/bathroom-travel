@@ -8706,7 +8706,9 @@ button,
 
 #homepage-primary {
   background-color: #60A0FF;
-  padding: 50px; }
+  padding: 50px;
+  min-height: 75vh;
+  height: auto; }
 
 header.masthead {
   background-color: #A2BECC; }

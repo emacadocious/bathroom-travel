@@ -27,6 +27,6 @@
 <script>
 jQuery('a[href*=#]').on('click', function(event){
     event.preventDefault();
-    jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top}, 1000);
+    jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top + 500}, 750);
 });
 </script>
