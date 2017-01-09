@@ -87,14 +87,14 @@ gulp.task('sass', function () {
         .pipe(sass())
         .pipe(gulp.dest('./css'));
 });
-
+console.log();
 // Run:
 // gulp watch
 // Starts watcher. Watcher runs gulp sass task on changes
 gulp.task('watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
     gulp.watch('./css/theme.css', ['cssnano']);
-    gulp.watch([basePaths.dev + 'js/**/*.js'], ['scripts'])
+    gulp.watch([basePaths.dev + 'js/*.js'], ['scripts'])
 });
 
 // Run:

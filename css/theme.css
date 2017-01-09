@@ -8748,6 +8748,11 @@ header.masthead {
       font-size: 3em;
       font-weight: bolder; }
 
+a#homepage-primary {
+  color: #373a3c;
+  background: #FFDE70;
+  text-decoration: none; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style

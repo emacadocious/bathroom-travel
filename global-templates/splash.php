@@ -18,11 +18,15 @@
     	</div>
       <div class="row">
         <div class="sp-full col-xs-12">
-      		<h2>You've come to the right place</h2>
-        </div>
-        <div class="sp-full col-xs-12">
-          <a href="index3.html">Scroll down!</a>
+          <a href="#homepage-primary" id="homepage-primary"><i class="fa fa-arrow-circle-o-down fa-lg" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
 </div>
+
+<script>
+jQuery('a[href*=#]').on('click', function(event){
+    event.preventDefault();
+    jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top}, 1000);
+});
+</script>
