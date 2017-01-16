@@ -18,15 +18,23 @@
     	</div>
       <div class="row">
         <div class="sp-full col-xs-12">
-          <a href="#homepage-primary" id="homepage-primary"><i class="fa fa-arrow-circle-o-down fa-lg" aria-hidden="true"></i></a>
+          <a href="#homepage-primary-heading"><i class="fa fa-arrow-circle-o-down fa-lg" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
 </div>
 
 <script>
-jQuery('a[href*=#]').on('click', function(event){
-    event.preventDefault();
-    jQuery('html,body').animate({scrollTop:jQuery(this.hash).offset().top + 500}, 750);
+jQuery('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = jQuery(this.hash);
+    target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      jQuery('html, body').animate({
+        scrollTop: target.offset().top -50
+      }, 1000);
+      return false;
+    }
+  }
 });
 </script>

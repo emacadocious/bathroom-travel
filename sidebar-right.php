@@ -4,8 +4,7 @@
  *
  * @package understrap
  */
-
-if ( ! is_active_sidebar( 'right-sidebar' ) ) {
+if ( ! is_active_sidebar( 'right-sidebar' ) || ! is_single() ) {
 	return;
 }
 

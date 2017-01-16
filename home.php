@@ -35,7 +35,7 @@ if ( is_front_page() && is_home() ) {
 			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
 
 			<?php if ( 'masonry' === $posts_style ) : ?>
-
+			<h2 id="homepage-primary-heading">these are some blog posts</h2>
 			<div class="card-columns"><?php endif; ?>
 
 				<main class="site-main" id="main">
@@ -50,7 +50,6 @@ if ( is_front_page() && is_home() ) {
 							if ( 'masonry' === $posts_style ) :
 								get_template_part( 'loop-templates/content', 'card' );
 							elseif ( 'grid' === $posts_style ) :
-
 								get_template_part( 'loop-templates/content', 'grid' );
 							else :
 								/*
@@ -76,12 +75,6 @@ if ( is_front_page() && is_home() ) {
 
 		</div><!-- #primary -->
 
-		<!-- Do the right sidebar check -->
-		<?php if ( 'right' === $sidebar_pos || 'both' === $sidebar_pos ) : ?>
-
-			<?php get_sidebar( 'right' ); ?>
-
-		<?php endif; ?>
 
 	</div><!-- .row -->
 

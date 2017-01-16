@@ -125,3 +125,12 @@ if ( ! function_exists( 'all_excerpts_get_more_link' ) ) {
 	}
 }
 add_filter( 'wp_trim_excerpt', 'all_excerpts_get_more_link' );
+
+
+function remove_shortcode_from_index( $content ) {
+  if ( is_home() ) {
+    $content = strip_shortcodes( $content );
+  }
+  return $content;
+}
+add_filter( 'the_content', 'remove_shortcode_from_index' );

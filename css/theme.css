@@ -8645,8 +8645,7 @@ button,
       .homepage-splash .sp-full {
         bottom: 200px; } }
   .homepage-splash .sp-full a {
-    background: #000;
-    color: #fff;
+    color: #373a3c;
     border-radius: 4px;
     padding: 10px 40px;
     font-size: 1em; }
@@ -8706,9 +8705,13 @@ button,
 
 #homepage-primary {
   background-color: #60A0FF;
-  padding: 50px;
-  min-height: 75vh;
+  padding: 0 50px;
+  min-height: 100%;
   height: auto; }
+  #homepage-primary h2 {
+    font-size: 3em;
+    padding: 50px 0;
+    text-align: center; }
 
 header.masthead {
   background-color: #A2BECC; }
@@ -8750,10 +8753,32 @@ header.masthead {
       font-size: 3em;
       font-weight: bolder; }
 
+.comments-area {
+  padding: 15px;
+  background-color: #CCCA82; }
+
 a#homepage-primary {
   color: #373a3c;
   background: #FFDE70;
   text-decoration: none; }
+
+.before-card {
+  visibility: hidden; }
+
+#right-sidebar aside {
+  padding: 10px; }
+
+#right-sidebar a {
+  color: red; }
+
+#right-sidebar h3.widget-title {
+  background-color: #FFDE70;
+  color: #373a3c;
+  padding: 10px;
+  font-weight: bolder; }
+
+#right-sidebar ul {
+  list-style: none; }
 
 /*
 * Use existing Bootstrap 4 classes and

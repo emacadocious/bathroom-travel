@@ -6,7 +6,9 @@
  */
 
 ?>
-Post!
+<div class="before-card">
+	hello world
+</div>
 <div class="card">
 	<article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
@@ -36,7 +38,7 @@ Post!
 		<div class="card-block">
 			<div class="entry-content card-text">
 				<?php
-				echo understrap_excerpt_with_length( $post->ID, 15 );
+				echo strip_shortcodes( understrap_excerpt_with_length( $post->ID, 15 ) );
 				?>
 
 				<?php

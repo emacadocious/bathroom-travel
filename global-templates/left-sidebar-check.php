@@ -31,7 +31,7 @@ if ( $is_woocommerce ) {
 	$html = '';
 	if ( 'right' === $sidebar_pos || 'left' === $sidebar_pos ) {
 		$html = '<div class="';
-		if ( is_active_sidebar( 'right-sidebar' ) || is_active_sidebar( 'left-sidebar' ) ) {
+		if ( ( is_active_sidebar( 'right-sidebar' ) || is_active_sidebar( 'left-sidebar' ) ) && ! is_front_page() ) {
 			$html .= 'col-md-8 content-area" id="primary">';
 		} else {
 			$html .= 'col-md-12 content-area" id="primary">';
@@ -47,7 +47,3 @@ if ( $is_woocommerce ) {
 		echo $html;
 	}
 }
-
-
-
-
