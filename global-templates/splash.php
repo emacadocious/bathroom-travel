@@ -1,4 +1,4 @@
-<div id="row homepage-splash" class="homepage-splash">
+<div id="row homepage-splash" class="homepage-splash hidden-sm-down">
     <div class="sp-container">
     	<div class="sp-content">
     		<div class="sp-wrap sp-left col-md-6">
@@ -31,7 +31,7 @@ jQuery('a[href*="#"]:not([href="#"])').click(function() {
     target = target.length ? target : jQuery('[name=' + this.hash.slice(1) + ']');
     if (target.length) {
       jQuery('html, body').animate({
-        scrollTop: target.offset().top -50
+        scrollTop: target.offset().top - 50
       }, 1000);
       return false;
     }

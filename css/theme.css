@@ -4176,7 +4176,8 @@ tbody.collapse.in {
 .card-inverse .card-footer,
 .card-inverse .card-title,
 .card-inverse .card-blockquote {
-  color: #fff; }
+  color: #fff;
+  font-size: 2.5em; }
 
 .card-inverse .card-link,
 .card-inverse .card-text,

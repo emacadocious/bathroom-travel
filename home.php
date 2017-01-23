@@ -30,12 +30,12 @@ if ( is_front_page() && is_home() ) {
 	<div class="<?php echo esc_html( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row" id="homepage-primary">
+			<h2 id="homepage-primary-heading">these are some blog posts</h2>
 
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
 
 			<?php if ( 'masonry' === $posts_style ) : ?>
-			<h2 id="homepage-primary-heading">these are some blog posts</h2>
 			<div class="card-columns"><?php endif; ?>
 
 				<main class="site-main" id="main">
