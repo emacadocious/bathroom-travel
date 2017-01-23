@@ -4176,8 +4176,7 @@ tbody.collapse.in {
 .card-inverse .card-footer,
 .card-inverse .card-title,
 .card-inverse .card-blockquote {
-  color: #fff;
-  font-size: 2.5em; }
+  color: #fff; }
 
 .card-inverse .card-link,
 .card-inverse .card-text,
@@ -8713,6 +8712,10 @@ button,
     font-size: 3em;
     padding: 50px 0;
     text-align: center; }
+  #homepage-primary .card-inverse:hover {
+    opacity: 0.75;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+    filter: alpha(opacity=75); }
 
 header.masthead {
   background-color: #A2BECC; }
@@ -8735,7 +8738,9 @@ header.masthead {
 
 #wrapper-footer {
   background-color: #a2becc;
-  border-top: 3px solid #373a3c; }
+  border-top: 3px solid #373a3c;
+  text-align: center;
+  padding-bottom: 20px; }
 
 #single-wrapper {
   width: 85%;
@@ -8756,7 +8761,7 @@ header.masthead {
 
 .comments-area {
   padding: 15px;
-  background-color: #CCCA82; }
+  background-color: #F9DE6F; }
 
 a#homepage-primary {
   color: #373a3c;

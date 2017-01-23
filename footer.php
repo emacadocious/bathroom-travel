@@ -23,7 +23,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<footer class="site-footer" id="colophon">
 
-					
+					<i class="fa fa-copyright" aria-hidden="true"></i> <?php echo esc_html( date('Y') ); ?>
+					<br />what little rights we have, they're reserved
 
 				</footer><!-- #colophon -->
 
